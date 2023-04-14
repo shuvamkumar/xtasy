@@ -1,0 +1,78 @@
+.flex1-child2{
+    background-color: #3d5f52;
+    width:50%;
+    height:600px;
+}
+.flex-container{
+  display: flex;
+}
+.flex1-child1{
+  flex:1;
+}
+.flex1-child2{
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 4rem;
+}
+.firstContent h1{
+  width: 220px;
+  padding-top: 6rem;
+    padding-left: 12rem;
+    color: #F5EBB5;
+    font-size: 25px;
+    letter-spacing: 1px;
+    justify-content: space-around;
+}
+.retro{
+    color:#EA662F;
+}
+.firstContent p{
+    color:#7B8382 ;
+    padding-left: 12rem;
+    width: 200px;
+    font-size: 10px;
+}
+$white: #fff;
+$google-blue: #4285f4;
+$button-active-blue: #1669F2;
+
+.google-btn {
+    margin-top: 3rem;
+    margin-left: 12rem;
+  width: 180px;
+  height: 42px;
+  background-color:#EA662F;
+  border-radius: 0px;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+  .google-icon-wrapper {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: $white;
+  }
+.google-icon{
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 11px;
+    width: 18px;
+    height: 18px;
+  }
+  .btn-text {
+    width:130px;
+    float: right;
+    margin-top: 10px;
+    margin-left:0px;
+    color: $white;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+  }
+  &:hover {
+    box-shadow: 0 0 6px $google-blue;
+  }
+  &:active {
+    background: $button-active-blue;
+}
+}
